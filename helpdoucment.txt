@@ -1,0 +1,25 @@
+1) Run Web API project, make sure you have SQL server installed,please make sure you have correct connection string in appsettings file
+
+2) Run angular project 
+npm install
+ng serve
+
+Command list
+________________________________________________________
+Login - login admin@wuxiaworld.com Dipole@1
+Logout- logout
+Create Novel- createnovel $novelname
+Create Genre- creategenre $novelId $generename
+Create Chapter- createchapter $novelId $chapthername $content
+Get All Novels- getallnovels
+Delete Genre- deletegenre $novelid $genretitle
+Search Genre- searchgenre $genrename
+Get All Genres- getallgenres
+Get All Chapters- getallchapters
+Publish Chapter- publishchapter $chapterid
+
+Note: 
+1) Get process can be done by any one without any login
+2) Insert/update/delete operation can be done by Admin account only
+
+admin@wuxiaworld.com Dipole@1

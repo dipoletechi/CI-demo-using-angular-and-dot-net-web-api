@@ -1,0 +1,10 @@
+
+CRMWebApi/.vs
+CRMWebApi/CMSWebAPI.DAL/bin/
+CRMWebApi/CMSWebAPI.DAL/obj/
+CRMWebApi/CMSWebAPI.Models/bin
+CRMWebApi/CMSWebAPI.Models/obj
+CRMWebApi/CMSWebAPI/Logs
+CRMWebApi/CMSWebAPI/obj/
+CRMWebApi/CMSWebAPI/bin/
+CRMWebApi/packages/
