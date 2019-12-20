@@ -1,0 +1,14 @@
+<app-appheader></app-appheader>
+<div class="row">
+  
+  <div class="col-lg-12 commandisplay">
+    <ul>
+      <li *ngFor="let c of messageList"> {{c}}</li>
+    </ul>
+    <app-apploader *ngIf="isLoading"></app-apploader>
+  </div>
+
+  <div class="col-lg-12">
+      <input type="text" id="commandtext" *ngIf="!isLoading" [(ngModel)]="command" (keyup.enter)="sendCommand()" placeholder="Press enter to send command" class="form-control"/>
+  </div>  
+</div>
